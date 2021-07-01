@@ -670,7 +670,13 @@ body::-webkit-scrollbar-track {
     color: #fff;
     font-size: 25px;
     background: var(--bg-color);
-    border-radius: 50px
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .5s
+}
+
+.footer .first-footer .social-media i:hover {
+    background: var(--main-color)
 }
 
 .footer .last-footer {
